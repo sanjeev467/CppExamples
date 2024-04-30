@@ -47,7 +47,9 @@ int main()
 {
     vector<int> array = {2, 4, 6, 8};
     Node *head = convertArr2LL(array);
-    cout << head->data;
+    cout << head->data << endl;
+
+    cout << head->next->data;
 
     return 0;
 }

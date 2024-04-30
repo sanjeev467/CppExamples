@@ -33,7 +33,7 @@ Node *convertArr2LL(vector<int> &array)
     {
 
         Node *temp = new Node(array[i]);
-        mover->next = temp;
+        mover->next = temp; // in order to cretae a ll the currents node should point to nest node
         mover = temp;
     }
 
